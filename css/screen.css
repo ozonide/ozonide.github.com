@@ -1,0 +1,60 @@
+body {
+  background-color: white;
+  font: 12pt verdana, sans-serif;
+}
+
+.author {
+  text-align: right;
+}
+
+.site {
+  text-align: justify;
+  width: 42em;
+  margin: 3em auto 2em auto;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 1em;
+  padding-top: 0.1em;
+  background: #620; /* for non-css3 browsers */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#662200', endColorstr='#ffffff'); /* for IE */
+  background: -webkit-gradient(linear, left top, left bottom, from(#620), to(#fff)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #620,  #fff); /* for Firefox 3.6+ */
+}
+
+#shadow-container {
+    position: relative;
+    left: 3px;
+    top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+ 
+#shadow-container .shadow2,
+#shadow-container .shadow3,
+#shadow-container .container {
+    position: relative;
+    left: -1px;
+    top: -1px;
+}
+ 
+#shadow-container .shadow1 {
+    background: #F1F0F1;
+}
+
+#shadow-container .shadow2 {
+    background: #DBDADB;
+}
+
+#shadow-container .shadow3 {
+    background: #B8B6B8;
+}
+
+#shadow-container .container {
+    background: #ffffff;
+    padding: 10px;
+}
+

@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Ozonide graph database</title>
+ <link href="http://www.ozonide.org/atom.xml" rel="self"/>
+ <link href="http://www.ozonide.org/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://www.ozonide.org/</id>
+ <author>
+   <name>Tobias Ivarsson</name>
+   <email>tobias AT ozonide DOT org</email>
+ </author>
+
+{% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://www.ozonide.org{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://www.ozonide.org{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+{% endfor %}
+ 
+</feed>
