@@ -9,20 +9,27 @@ body {
 
 .site {
   text-align: justify;
-  width: 42em;
+  width: 800px;
   margin: 3em auto 2em auto;
+}
+
+.logo {
+  background: #620;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#662200', endColorstr='#ff6600'); /* for IE */
+  background: -webkit-gradient(linear, left top, left bottom, from(#620), to(#f60)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #620,  #f60); /* for Firefox 3.6+ */
 }
 
 .title {
   text-align: center;
-  color: #fff;
+  color: #620;
   padding-bottom: 1em;
   padding-top: 0.1em;
-  background: #620; /* for non-css3 browsers */
+  background: #f60; /* for non-css3 browsers */
 
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#662200', endColorstr='#ffffff'); /* for IE */
-  background: -webkit-gradient(linear, left top, left bottom, from(#620), to(#fff)); /* for webkit browsers */
-  background: -moz-linear-gradient(top,  #620,  #fff); /* for Firefox 3.6+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6600', endColorstr='#ffffff'); /* for IE */
+  background: -webkit-gradient(linear, left top, left bottom, from(#f60), to(#fff)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #f60,  #fff); /* for Firefox 3.6+ */
 }
 
 #shadow-container {
