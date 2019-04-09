@@ -1,0 +1,13 @@
+Path Patterns
+=============
+:page-layout: page
+
+[graphviz%interactive, path-patterns, svg]
+....
+digraph G {
+  "Path Patterns" [URL="/PathPatterns.html",target=_parent]
+  "Path Patterns" -> "Use Cases"
+}
+....
+
+latexmath:[e^{i \pi} + 1 = 0]

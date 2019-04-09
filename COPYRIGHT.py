@@ -1,4 +1,4 @@
-# Copyright (c) 2010 Tobias Ivarsson [http://www.thobe.org/]
+# Copyright (c) 2010 Tobias Lindaaker [http://www.thobe.org/]
 #
 # Copyright (c) 2010 "Neo Technology,"
 #   Network Engine for Objects in Lund AB [http://neotechnology.com/]

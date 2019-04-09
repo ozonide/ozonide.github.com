@@ -10,7 +10,7 @@ layout: nil
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://www.ozonide.org/</id>
  <author>
-   <name>Tobias Ivarsson</name>
+   <name>Tobias Lindaaker</name>
    <email>tobias AT ozonide DOT org</email>
  </author>
 

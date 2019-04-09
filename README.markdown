@@ -9,7 +9,7 @@ This is the public website for the [Ozonide][] graph database.
 <tt>O<sub>3</sub><sup>-</sup></tt>,            derived            from
 ozone[<sup>[wikipedia]</sup>][wikipedia].  Likewise this project is an
 unstable  graph database  derived from  [Neo4j][].  It  is  created by
-[Tobias Ivarsson][tobias] at [Neo Technology][neotech], thus copyright
+[Tobias Lindaaker][tobias] at [Neo Technology][neotech], thus copyright
 is shared between both Tobias  and Neo Technology.  The purpose of the
 [Ozonide][]  project   is  to  be  a  highly   flexible  platform  for
 experimenting with new features or trying out different implementation
@@ -22,7 +22,7 @@ performance graph database, I recommend you take [Neo4j][] for a spin.
 
 All sources for [Ozonide][] are licensed under the [Gnu Affero General
 Public   License][AGPL],  with   shared   copyright  between   [Tobias
-Ivarsson][tobias] and [Neo Technology][neotech].
+Lindaaker][tobias] and [Neo Technology][neotech].
 
 The source  code for  the [Ozonide][] graph  database is  available at
 <https://github.com/ozonide/graphdb>.
